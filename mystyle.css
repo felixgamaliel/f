@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    height: 93vh;
+    width: 100%;
+    background: url(feli.jpg);
+    background-color: navy;
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    position:relative;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+nav a{
+    color: #fff;
+}
+.logo{
+    display: inline;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 39px;
+}
+.logo span{
+    color: red;
+}
+nav>ul{
+    padding-right: 11%;
+}
+nav ul a{
+    padding: 7px;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+nav ul a:hover{
+    color: red;
+}
+
+
+/*introduction*/
+
+.intro a{
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    padding: 3%;
+    background-color: #fff;
+    border-radius: 10%;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.intro a:hover{
+    box-shadow: -3px -3px 20px 0px rgba(9, 3, 9, 8);;
+}
+.intro h4{
+    color: navy;
+    font-size: 19px;
+    padding: 2%;
+}
+.intro h2{
+    color: red;
+    padding: 2%;
+}
+
+.intro a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*.intro-btn{
+    font-size: 11px;
+    border:1px solid navy;
+    border-radius: 10%;
+    background: transparent;
+    text-align: end;
+    padding: 2%;
+    margin: 3%;
+    cursor: pointer;
+}
+*/
+
+/*footer*/
+.footer{
+    background-color: red;
+    margin-bottom: 7px;
+}
+
+
+.copy{
+    text-align: center;
+}
+
+/*resume*/
+
+.R-header{
+    height: 66vh;
+    width: 100%;
+    background: url(feli.jpg);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: navy;
+}
+
+#intro{
+    
+    text-align: center;
+    
+}
+#intro H1{
+    letter-spacing: 4px;
+    color: navy;
+}
+#intro h4{
+    letter-spacing: 2px;
+    color: red;
+}
+#address{
+    position: relative;
+    text-align: right;
+    right: 3%;
+    margin-top: 2%;
+    color: navy;
+}
+.email{
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    margin: 0;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+p{
+    padding-left: 34px;
+    font-size: 19px;
+}
+.per-info{
+    padding-left: 180px;
+}
+.per-info1{
+    padding-left: 168px;
+}
+.per-info2{
+    padding-left: 198px;
+}
+.per-info3{
+    padding-left: 258px;
+}
+.per-info4{
+    padding-left: 206px;
+}
+.per-info5{
+    padding-left: 152px;
+}
+.per-info6{
+    padding-left: 219px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sect{
+    background-color: navy;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-weight: bolder;
+ 
+}
+.list{
+    margin-left: 13%;
+    list-style-type: circle;
+}
+
+
+
+
+
+
+
+
+.ex-li{
+    display: flex;
+    list-style: none;
+    padding: 0 3px;
+    font-size: 19px;
+}
+
+.j-tittle{
+    font-size: 15px;
+    padding-top: 2px;
+}
+.date{
+    text-align: right;
+    font-size: 15px;
+   margin-top: -19px;
+   padding-right: 2%;
+}
+.sect-pr{
+    color: navy;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+   padding: 4px;
+   background: red;
+}
+.my-resp{
+    
+    padding-left: 72px;
+    list-style: square;
+}
+
+
+.edu-cert{
+    list-style: decimal;
+    padding-left: 30px;
+}
+#cert{
+    font-size: 24px;
+    border-bottom: 2px solid;
+    margin: 2px;
+    padding-top: 4px;
+}
+.cert-ins{
+    color: navy;
+    padding:8px 0px 0px 40px;
+    font-size: 17px;
+}
+#cert-ins{
+    padding-left: 100px;
+}
+
+.modules-list{
+    list-style: lower-roman;
+    padding-left: 155px;
+}
+
+
+.ref-col {
+   padding-left: 20%;
+    display: flex;
+    text-decoration: none;
+    list-style: decimal-leading-zero;
+    
+}
+.ref-row h4{
+    color: red;
+}
+
+.ref-row{
+    text-align: center;
+    margin: 3%;
+    padding-right: 7px;
+    border-right: 1px solid;
+}
