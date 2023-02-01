@@ -30,6 +30,13 @@ nav a{
     font-weight: bold;
     font-size: 39px;
 }
+@media screen (max-width:320px) and (min-width:480px){
+    .logo{
+        font-size: 12px;
+    }
+}
+
+
 .logo span{
     color: red;
 }
