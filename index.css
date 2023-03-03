@@ -1,0 +1,70 @@
+
+.navbar{
+   
+}
+
+
+.logo{
+    
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo span{
+    color: red;
+}
+.d-sm-flex{
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: rgb(238, 15, 15);
+    margin-bottom: 7px;
+}
+.card-title{
+    color: White;
+}
+.copy{
+    text-align: center;
+}
+.card-body{
+    background-color: #0d6efd;
+}
+.btn{
+    color: red;
+}
+.text-reset{
+    text-decoration: none;
+}
+.list{
+    list-style-type: square;
+    font-weight: bold;
+    font-style: italic;
+    
+} 
+.blockquote{
+    font-weight: bold;
+    color: #0d6efd;
+}
+.sub{
+    text-align: center;
+    background-color: red;
+    padding: 3px;
+}
+.list{
+    list-style: circle;
+}
+.paper{
+    
+    margin-top: 4px;
+}
+.list-group-item{
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    background-color: red;
+}
