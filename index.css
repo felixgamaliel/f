@@ -21,7 +21,8 @@
     background-color: rgb(238, 15, 15);
     margin-bottom: 7px;
 }
-.card-title{
+.card{
+   background color: #041125;
     color: White;
 }
 .copy{
