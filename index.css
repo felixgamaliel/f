@@ -18,7 +18,7 @@
 }
 
 .footer{
-    background-color: rgb(238, 15, 15);
+    background-color: #041125;
     margin-bottom: 7px;
 }
 .card{
@@ -28,7 +28,7 @@
     text-align: center;
 }
 .card-body{
-    background-color: #041125;
+     background-color: #041125;
 }
 .btn{
     color: red;
