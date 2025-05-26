@@ -16,7 +16,9 @@
 .d-sm-flex{
     justify-content: space-around;
 }
-
+.img-fluid {
+   border-radius: 50%;
+}
 .footer{
     background-color: #041125;
     margin-bottom: 7px;
